@@ -34,6 +34,20 @@ As part of this effort, I included the following additional improvements:
 - Added basic LICENSE file.
 - Added .gitignore file
 
+## Deployment data
+
+### Application URL
+
+https://edgardopina.github.io/bc-challenge-01/
+
+### Repository URL
+
+https://github.com/edgardopina/bc-challenge-01
+
+### Application screenshot
+
+![Screenshot of full Horiseon website](/assets/images/bc-challenge-01-screenshot.png?raw=true "Horiseon website sreenshot")
+
 ## Review and grading
 
 The submission of this project for review and grading required:
