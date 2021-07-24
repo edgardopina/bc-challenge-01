@@ -1,24 +1,15 @@
-# 01 HTML CSS Git: Code Refactor
+# Bootcamp Challenge 01 - HTML CSS Git: Code Refactor
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
-
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+This project required to take existing code and refactor it to meet the minimum acceptance criteria associated to an user story described below. A main focus of the project is to ensure minimum Web accessibility compliance to ensure that people with disabilities or socio-economic restrictions have access to this website. 
 
 ## User Story
 
-```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
-```
 
-## Acceptance Criteria
+## (minimum) Acceptance Criteria
 
-```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -30,15 +21,25 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
-```
+
+## Additional improvements
+
+As part of this effort, I included the following additional improvements:
+
+* Ensured that all links are functioning correctly.
+* Cleaned up the CSS to make it more efficient
+* Consolidated CSS selectors and properties.
+* Organized CSS to follow the semantic structure of the HTML elements.
+* Added comments before each element or section of the page.
+* Added basic LICENSE file.
 
 ## Review
 
-You are required to submit the following for review:
+The submission of this project for review and grading required:
 
 * The URL of the deployed application.
+* The URL of the GitHub repository with a unique name.
+* Include a README (this file) describing the project.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
+- - - (Adapted from original README file provided for this course)
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
