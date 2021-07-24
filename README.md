@@ -1,6 +1,6 @@
 # Bootcamp Challenge 01 - HTML CSS Git: Code Refactor
 
-This project required to take existing code and refactor it to meet the minimum acceptance criteria associated to an user story described below. A main focus of the project is to ensure minimum Web accessibility compliance to ensure that people with disabilities or socio-economic restrictions have access to this website. 
+This project required to take existing code and refactor it to meet the minimum acceptance criteria associated to an **user story described below**. A main focus of the project is to ensure minimum Web accessibility compliance to enable people with disabilities or socio-economic restrictions have access to this website.
 
 ## User Story
 
@@ -26,20 +26,21 @@ THEN I find a concise, descriptive title
 
 As part of this effort, I included the following additional improvements:
 
-* Ensured that all links are functioning correctly.
-* Cleaned up the CSS to make it more efficient
-* Consolidated CSS selectors and properties.
-* Organized CSS to follow the semantic structure of the HTML elements.
-* Added comments before each element or section of the page.
-* Added basic LICENSE file.
+- Ensured that all links are functioning correctly.
+- Cleaned up the CSS to make it more efficient
+- Consolidated CSS selectors and properties.
+- Organized CSS to follow the semantic structure of the HTML elements.
+- Added comments before each element or section of the page for the index.html and style.css files.
+- Added basic LICENSE file.
+- Added .gitignore file
 
-## Review
+## Review and grading
 
 The submission of this project for review and grading required:
 
-* The URL of the deployed application.
-* The URL of the GitHub repository with a unique name.
-* Include a README (this file) describing the project.
+- The URL of the deployed application.
+- The URL of the GitHub repository with a unique name.
+- Include a README (this file) describing the project.
 
-- - - (Adapted from original README file provided for this course)
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+* - - (Adapted from original README file provided for this course)
+      © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

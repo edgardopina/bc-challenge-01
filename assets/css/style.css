@@ -1,13 +1,24 @@
+/*  * - UNIVERSAL SELECTOR sets DEFAULT CSS property-values for all elements/selectors */
+/* box-sizing: border-box - padding and border are included in the width and height */
+/* padding:0 - sets the padding for all four sides of all element to 0 pixels */
+/* margin:0 - sets the margin for all four sides of all element to 0 pixels */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* sets CSS property-values for the content of the element "body" */
+/* background-color: - sets the background color */
 body {
   background-color: #d9dcd6;
 }
 
+/* sets CSS property-values for the content of the element "header" */
+/* padding: 20px - sets padding of all four sides of element header to 20px */
+/* font-family: sets "Trebuchet MS" as the font for the header and the other fonts as generic if "Trebuchet MS" is not installed */
+/* background-color: #2a607c - sets the background color */
+/* color: #ffffff - sets the font color */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -15,20 +26,34 @@ header {
   color: #ffffff;
 }
 
+/* grouping selector to set CSS property-values for the content of the elements "h1" under the element "header" */
+/* display: inline-block; - it does NOT add a line-break after the element, so the element can sit next to other elements; the top and bottom margins paddings are respected */
+/* font-size: 48px - sets the font size to 48px */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* sets CSS property-values for the content of the elements "a" */
+/* color: #ffffff - sets the font color */
+/* text-decoration: none - sets the appearance of the decorative lines of the text of the anchor. Possible values could be related to line, color, style, and thickness */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* grouping selector to set CSS property-values for the elements with class="seo" under elements "h1" under element "header" */
+/* color: #ffffff - sets the font color */
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/* grouping selector to set CSS property-values for the elements under element "nav", under element "header" */
+/* padding-top: 15px - sets padding of top side to 15px */
+/* margin-right: 20px - sets margin of right side to 20px */
+/* float: right - specifies that the elements under this grouping selector should float to the right */
+/* font-family: sets "Gill Sans" as the font and the other fonts as generic if "Gill Sans" is not installed */
+/* font-size: 20px - sets the font size to 20px */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -37,15 +62,27 @@ header nav {
   font-size: 20px;
 }
 
+/* grouping selector to set CSS property-values for the elements under element "ul", under element "nav", under element "header" */
+/* list-style-type: none - remove the marker of the list element; possible markers could be disc, circle, square, decimal, and other custom markers */
 header nav ul {
   list-style-type: none;
 }
 
+/* grouping selector to set CSS property-values for the elements under "li", under element "ul", under element "nav", under element "header" */
+/* display: inline-block; - it does NOT add a line-break after the element, so the element can sit next to other elements; the top and bottom margins paddings are respected */
+/* margin-left: 25px - sets margin of left side to 25px */
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* sets CSS property-values for the elements with the class "hero" */
+/* height: 800px - specify the height of the element to 800px */
+/* width: 100%  - set the width of the element; the width of an element does not include padding, borders, or margins,! This specific pair defines the width as a 100% of the containing block */
+/* margin-bottom: 25px - sets the margin area on the bottom of the element to 25px */
+/* background-image: url("../images/digital-marketing-meeting.jpg") - set the image background of the elements with the class "hero" */
+/* background-size: cover - scale the background image as large as possible to fill the available space of the container. If the proportions of the image differ from the element, it is cropped either vertically or horizontally so that no empty space remains. */
+/* background-position: center - set the initial position for the background image with the keyword value of 'center', which centers the image. */
 .hero {
   height: 800px;
   width: 100%;
@@ -55,12 +92,23 @@ header nav ul li {
   background-position: center;
 }
 
+/* sets CSS property-values for the elements with the class "content" */
+/* width: 75%  - set the width of the element; the width of an element does not include padding, borders, or margins,! This specific pair defines the width as a 75% of the containing block */
+/* display: inline-block; - it does NOT add a line-break after the element, so the element can sit next to other elements; the top and bottom margins paddings are respected */
+/* margin-left: 20px - sets margin of left side to 20px */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* sets CSS property-values for the elements of the class "content-article" */
+/* margin-bottom: 20px - sets margin of bottom side to 20px */
+/* padding: 50px - sets the padding for all four sides of element to 50 pixels */
+/* height: 300px - sets the height of an element; the height of an element does not include padding, borders, or margins! This specific pair defines the height of the element as a 300px */
+/* font-family: sets "Gill Sans" as the font and the other fonts as generic if "Gill Sans" is not installed */
+/* background-color: - sets the background color */
+/* color: #ffffff - sets the font color */
 .content-article {
   margin-bottom: 20px;
   padding: 50px;
@@ -70,29 +118,51 @@ header nav ul li {
   color: #ffffff;
 }
 
+/* grouping selector for the elements "img" under elements with class "content-article" */
+/* max-height: 200px - defines the maximum height of the element to 200px */
 .content-article img {
   max-height: 200px;
 }
 
+/* grouping selector for the elements "h2" under elements with class "content-article" */
+/* margin-bottom: 20px - sets margin of bottom side to 20px */
+/* font-size: 36px - sets the font size to 36px */
 .content-article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* sets CSS property-values for the content of the element "p" */
+/* font-size: 16px - sets the font size to 16px */
 p {
   font-size: 16px;
 }
 
+/* sets CSS property-values for the elements with class "float-left" */
+/* float: left - specifies that the elements with this class should float to the left */
+/* margin-right: 25px - sets margin of right side to 25px */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* sets CSS property-values for the elements with class "float-right" */
+/* float: right - specifies that the elements with this class should float to the right */
+/* margin-right: 25px - sets margin of right side to 25px */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* sets CSS property-values for the elements with class "benefits" */
+/* margin-right: 20px - sets margin of right side to 20px */
+/* padding: 20px - sets all four sides paddings to 20px  */
+/* clear: both - it specifies what should happen with the element that is next to a floating element. The "both" value indicates that the element will be pushed below both left and right floated elements */
+/* float: right - specifies that the elements under this grouping selector should float to the right */
+/* width: 20% - sets the width of an element; the width of an element does not include padding, borders, or margins! This specific pair defines the width as a 20% of the containing block */
+/* height: 100% - sets the height of an element; the height of an element does not include padding, borders, or margins! This specific pair defines the height as a 100% of the containing block */
+/* font-family: sets "Gill Sans" as the font and the other fonts as generic if "Gill Sans" is not installed */
+/* background-color: - sets the background color */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -104,22 +174,37 @@ p {
   background-color: #2589bd;
 }
 
+/* sets CSS property-values for the elements with class="benefit" */
+/* margin-bottom: 32px - sets margin of bottom side to 32px */
+/* color: #ffffff - sets the font color */
 .benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* grouping selector for the elements "h3" under elements with class "benefit" */
+/* margin-bottom: 10px - used to create space around elements, outside of any defined borders; sets margin of bottom side to 10px */
+/* text-align: center - specifies the horizontal alignment of text in an element; it centers the text */
 .benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* grouping selector for the elements "img" under elements with class "benefit" */
+/* display: block - specifies the display behavior (the type of rendering box) of an element; displays an element as a block element (like <p>); it starts on a new line, and takes up the whole width */
+/* margin: 10px auto - used to create space around elements, outside of any defined borders; sets margin of top and bottom sides to 10px, and the marging of right and left sides will be split equally between the left and right margins; in other words, it centers the element horizontally */
+/* max-width: 150px - defines the maximum width of the element to 150px */
 .benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* sets CSS property-values for the elements with class "footer" */
+/* padding: 30 - sets the padding for all four sides of all element to 30 pixels */
+/* clear: both - it specifies what should happen with the element that is next to a floating element. The "both" value indicates that the element will be pushed below both left and right floated elements */
+/* font-family: sets "Trebuchet MS" as the font for the header and the other fonts as generic if "Trebuchet MS" is not installed */
+/* text-align: center - specifies the horizontal alignment of text in an element; it centers the text */
 .footer {
   padding: 30px;
   clear: both;
@@ -127,6 +212,8 @@ p {
   text-align: center;
 }
 
+/* grouping selector for the elements "h2" under elements with class "footer" */
+/* font-size: 20px - sets the font size to 20px */
 .footer h2 {
   font-size: 20px;
 }
